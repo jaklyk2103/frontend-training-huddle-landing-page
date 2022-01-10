@@ -6,3 +6,17 @@ $font-weight-normal: 400;
 $font-weight-bold: 600;
 $font-family-heading: 'Poppins' sans-serif;
 $font-family-body: 'Open Sans', sans-serif;
+
+.container {
+  display: grid;
+  grid-auto-flow: rows;
+  grid-auto-columns: 750px;
+  align-items: center;
+  justify-items: center;
+
+  svg {
+    // width:100%;
+    background-color: red;
+    width: 100%;
+  }
+}
