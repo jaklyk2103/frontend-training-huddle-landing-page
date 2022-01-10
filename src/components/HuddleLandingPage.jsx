@@ -6,8 +6,14 @@ import IllustrationMockups from './images/IllustrationMockups'
 
 const HuddleLandingPage = () => {
   return (
-    <div>
-      <IllustrationMockups></IllustrationMockups>
+    <div className='container'>
+      <BackgroundMobile />
+      <Logo className='logo' />
+      <IllustrationMockups className='illustrations' />
+      <div className='title'></div>
+      <div className='content'></div>
+      <div className='button'></div>
+      <div className='socials'></div>
     </div>
   )
 }
