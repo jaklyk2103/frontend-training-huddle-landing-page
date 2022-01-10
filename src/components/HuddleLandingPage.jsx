@@ -3,6 +3,7 @@ import BackgroundDesktop from './images/BackgroundDesktop'
 import BackgroundMobile from './images/BackgroundMobile'
 import Logo from './images/Logo'
 import IllustrationMockups from './images/IllustrationMockups'
+import SocialsSection from './SocialsSection'
 
 const HuddleLandingPage = () => {
   return (
@@ -14,6 +15,7 @@ const HuddleLandingPage = () => {
       <div className='content'></div>
       <div className='button'></div>
       <div className='socials'></div>
+      <SocialsSection />
     </div>
   )
 }
