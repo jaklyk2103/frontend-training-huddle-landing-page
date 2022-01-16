@@ -5,14 +5,12 @@ import texts from './texts'
 const HuddleLandingPage = () => {
   return (
     <div className='container'>
-      {/* <BackgroundMobile /> */}
-      {/* <Logo className='logo' /> */}
-      {/* <IllustrationMockups className='illustrations' /> */}
+      <img className='logo' src='logo.svg' />
+      <img className='illustration' src='illustration-mockups.svg' />
       <div className='title'>{texts.title}</div>
       <div className='content'>{texts.content}</div>
-      <div className='button'>{texts.buttonAction}</div>
+      <button className='button'>{texts.buttonAction}</button>
       <div className='socials'></div>
-      <img src='illustration-mockups.svg' />
       <SocialsSection />
     </div>
   )

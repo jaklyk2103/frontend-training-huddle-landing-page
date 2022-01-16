@@ -4,9 +4,9 @@ import { faTwitter, faInstagram, faFacebookF } from '@fortawesome/free-brands-sv
 const SocialsSection = () => {
   return (
     <div className='socials-section-container'>
-      <FontAwesomeIcon icon={faFacebookF} />
-      <FontAwesomeIcon icon={faTwitter} />
-      <FontAwesomeIcon icon={faInstagram} />
+      <FontAwesomeIcon className='social-icon' icon={faFacebookF} />
+      <FontAwesomeIcon className='social-icon' icon={faTwitter} />
+      <FontAwesomeIcon className='social-icon' icon={faInstagram} />
     </div>
   )
 }
